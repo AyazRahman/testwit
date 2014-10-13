@@ -22,6 +22,11 @@
 		DD00ABD519EB0B8A0013FA37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD00ABB419EB0B8A0013FA37 /* UIKit.framework */; };
 		DD00ABDD19EB0B8B0013FA37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD00ABDB19EB0B8A0013FA37 /* InfoPlist.strings */; };
 		DD00ABDF19EB0B8B0013FA37 /* testwitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD00ABDE19EB0B8B0013FA37 /* testwitTests.m */; };
+		DD00ABEA19EB0C000013FA37 /* Wit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD00ABE819EB0C000013FA37 /* Wit.bundle */; };
+		DD00ABEB19EB0C000013FA37 /* Wit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD00ABE919EB0C000013FA37 /* Wit.framework */; };
+		DD00ABED19EB0C600013FA37 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD00ABEC19EB0C600013FA37 /* AVFoundation.framework */; };
+		DD00ABEF19EB0C6D0013FA37 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD00ABEE19EB0C6D0013FA37 /* MobileCoreServices.framework */; };
+		DD00ABF119EB0C7F0013FA37 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD00ABF019EB0C7F0013FA37 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		DD00ABDA19EB0B8A0013FA37 /* testwitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testwitTests-Info.plist"; sourceTree = "<group>"; };
 		DD00ABDC19EB0B8A0013FA37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD00ABDE19EB0B8B0013FA37 /* testwitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testwitTests.m; sourceTree = "<group>"; };
+		DD00ABE819EB0C000013FA37 /* Wit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Wit.bundle; path = 1.3.6/Wit.bundle; sourceTree = "<group>"; };
+		DD00ABE919EB0C000013FA37 /* Wit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wit.framework; path = 1.3.6/Wit.framework; sourceTree = "<group>"; };
+		DD00ABEC19EB0C600013FA37 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DD00ABEE19EB0C6D0013FA37 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DD00ABF019EB0C7F0013FA37 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD00ABF119EB0C7F0013FA37 /* SystemConfiguration.framework in Frameworks */,
+				DD00ABEF19EB0C6D0013FA37 /* MobileCoreServices.framework in Frameworks */,
+				DD00ABED19EB0C600013FA37 /* AVFoundation.framework in Frameworks */,
 				DD00ABB319EB0B8A0013FA37 /* CoreGraphics.framework in Frameworks */,
+				DD00ABEB19EB0C000013FA37 /* Wit.framework in Frameworks */,
 				DD00ABB519EB0B8A0013FA37 /* UIKit.framework in Frameworks */,
 				DD00ABB119EB0B8A0013FA37 /* Foundation.framework in Frameworks */,
 			);
@@ -84,6 +98,8 @@
 		DD00ABA419EB0B8A0013FA37 = {
 			isa = PBXGroup;
 			children = (
+				DD00ABE819EB0C000013FA37 /* Wit.bundle */,
+				DD00ABE919EB0C000013FA37 /* Wit.framework */,
 				DD00ABB619EB0B8A0013FA37 /* testwit */,
 				DD00ABD819EB0B8A0013FA37 /* testwitTests */,
 				DD00ABAF19EB0B8A0013FA37 /* Frameworks */,
@@ -103,6 +119,9 @@
 		DD00ABAF19EB0B8A0013FA37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD00ABF019EB0C7F0013FA37 /* SystemConfiguration.framework */,
+				DD00ABEE19EB0C6D0013FA37 /* MobileCoreServices.framework */,
+				DD00ABEC19EB0C600013FA37 /* AVFoundation.framework */,
 				DD00ABB019EB0B8A0013FA37 /* Foundation.framework */,
 				DD00ABB219EB0B8A0013FA37 /* CoreGraphics.framework */,
 				DD00ABB419EB0B8A0013FA37 /* UIKit.framework */,
@@ -231,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD00ABEA19EB0C000013FA37 /* Wit.bundle in Resources */,
 				DD00ABC719EB0B8A0013FA37 /* Main_iPad.storyboard in Resources */,
 				DD00ABCC19EB0B8A0013FA37 /* Images.xcassets in Resources */,
 				DD00ABC419EB0B8A0013FA37 /* Main_iPhone.storyboard in Resources */,
@@ -390,6 +410,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/1.3.6",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testwit/testwit-Prefix.pch";
 				INFOPLIST_FILE = "testwit/testwit-Info.plist";
@@ -403,6 +427,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/1.3.6",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testwit/testwit-Prefix.pch";
 				INFOPLIST_FILE = "testwit/testwit-Info.plist";
